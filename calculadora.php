@@ -33,8 +33,8 @@ $operando1 = $_POST['operando1'];
 				<td align="center"><?php echo $_POST['operando2']; ?></td>
 			</tr>
 			<tr>
-				<th colspan=2><?php echo "La resultado es: "; ?></th>
-				<th><?php echo $solucion; ?></th>
+				<th colspan=1><?php echo "La resultado es: "; ?></th> //Le quite un espacio de celda
+				<th colspan=2><?php echo $solucion; ?></th> 			//Le puse 2 espacios de celda
 			</tr>
 		</table>
 	</body>
