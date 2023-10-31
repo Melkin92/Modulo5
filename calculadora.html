@@ -1,0 +1,48 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+	<div>
+    <form method="post" action="calculadora.php">
+		<table border="2" align="center">
+			<tr>
+				<th>
+					<input type="text" name="operando1">
+				</th>
+			</tr>	
+			<tr>
+				<th>
+					<select name="operador">
+						<option value="">Select</option>
+						<option value="+">+
+						</option>
+						<option value="-">-
+						</option>
+						<option value="*">*
+						</option>
+						<option value="/">/
+						</option>
+					</select>
+				</th>
+			</tr>
+			<tr>
+				<th>
+					<input type="text" name="operando2">
+				</th>
+			</tr>
+			<tr>
+				<th>
+					<input type="submit" value="enviar">
+				</th>
+			</tr>		
+		</table>
+	</form>
+	</div>
+</body>
+</html>
